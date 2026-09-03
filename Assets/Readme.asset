@@ -13,22 +13,22 @@ MonoBehaviour:
   m_Name: Readme
   m_EditorClassIdentifier: 
   icon: {fileID: 2800000, guid: 727a75301c3d24613a3ebcec4a24c2c8, type: 3}
-  title: URP Empty Template
+  title: XR Starter Project
   sections:
-  - heading: Welcome to the Universal Render Pipeline
-    text: This template includes the settings and assets you need to start creating with the Universal Render Pipeline.
-    linkText: 
+  - heading: Start Here
+    text: Open XR Starter > Start Here for the first-run lab checklist. Start in Assets/_Project/Scenes/SampleScene.unity, then save your own scene before making changes.
+    linkText:
     url:
-  - heading: URP Documentation
-    text:
-    linkText: Read more about URP
-    url: https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@latest
-  - heading: Forums
-    text:
-    linkText: Get answers and support
-    url: https://forum.unity.com/forums/universal-render-pipeline.383/
-  - heading: Report bugs
-    text:
-    linkText: Submit a report
-    url: https://unity3d.com/unity/qa/bug-reporting
+  - heading: Work in _Project
+    text: Put your scenes, scripts, prefabs, art, audio, and UI in Assets/_Project. Leave Assets/Samples, Assets/ThirdParty, and XR settings unchanged unless an assignment says otherwise.
+    linkText:
+    url:
+  - heading: Test before headset builds
+    text: Use the XR Interaction Simulator in Play Mode to verify interactions. When your scene is ready, add it to File > Build Profiles before testing on device.
+    linkText:
+    url:
+  - heading: Package samples
+    text: This template uses XRI 3.5.1. Controller and simulator samples are included; hand-tracking demos are intentionally omitted. Choose XR Starter > Validate Template Setup before using a package sample as reference.
+    linkText:
+    url:
   loadedLayout: 1

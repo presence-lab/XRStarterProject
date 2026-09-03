@@ -107,6 +107,6 @@ AssetOrigin:
   serializedVersion: 1
   productId: 105778
   packageName: '[Graphy] - Ultimate FPS Counter - Stats Monitor & Debugger'
-  packageVersion: 3.0.5
-  assetPath: Assets/Graphy - Ultimate Stats Monitor/Textures/2x2_Texture.png
-  uploadId: 626547
+  packageVersion: 4.0.0
+  assetPath: Assets/graphy/Textures/2x2_Texture.png
+  uploadId: 984674

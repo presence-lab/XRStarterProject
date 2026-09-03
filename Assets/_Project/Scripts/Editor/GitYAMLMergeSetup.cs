@@ -185,9 +185,10 @@ namespace XRStarterProject.Editor
             }
             else if (Application.platform == RuntimePlatform.OSXEditor)
             {
-                // Go up from Unity.app/Contents/MacOS to Unity.app/Contents/Tools
+                // Go up from Unity.app/Contents/MacOS to Unity.app/Contents/Helpers.
+                // Unity 6.5 ships UnityYAMLMerge in Helpers on macOS.
                 string contentsDir = Path.GetDirectoryName(editorDir);
-                toolsPath = Path.Combine(contentsDir, "Tools", "UnityYAMLMerge");
+                toolsPath = Path.Combine(contentsDir, "Helpers", "UnityYAMLMerge");
             }
             else
             {
