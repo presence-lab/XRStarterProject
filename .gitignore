@@ -11,6 +11,11 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 *.log
+/graphify-out/
+/[Ss]tarterBuild_BackUpThisFolder_ButDontShipItWithYourGame/
+/*_BurstDebugInformation_DoNotShip/
+/[Aa]ssets/_Project/Scripts/graphify-out/
+/[Aa]ssets/_Project/Scripts/graphify-out.meta
 
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
 *.blend1

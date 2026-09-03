@@ -16,7 +16,7 @@ MonoBehaviour:
   title: XR Starter Project
   sections:
   - heading: Start Here
-    text: Open XR Starter > Start Here for the first-run lab checklist. Start in Assets/_Project/Scenes/SampleScene.unity, then save your own scene before making changes.
+    text: Open XR Starter > Start Here for the first-run lab checklist. Press Play in Assets/_Project/Scenes/SampleScene.unity to open the in-world Demo Hub, then save your own scene before making changes.
     linkText:
     url:
   - heading: Work in _Project
